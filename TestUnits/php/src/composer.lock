@@ -1,0 +1,440 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "f1e8f2d8412348382ba5aad8c8453d64",
+    "packages": [
+        {
+            "name": "phptars/tars-client",
+            "version": "0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TarsPHP/tars-client.git",
+                "reference": "8b6d1361d9dabffcfc4876237808b2bc50893d9b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TarsPHP/tars-client/zipball/8b6d1361d9dabffcfc4876237808b2bc50893d9b",
+                "reference": "8b6d1361d9dabffcfc4876237808b2bc50893d9b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3",
+                "phptars/tars-monitor": "~0.2",
+                "phptars/tars-registry": "~0.1",
+                "phptars/tars-utils": "~0.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Tars\\client\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Chen Liang",
+                    "email": "cedricliang21@gmail.com"
+                },
+                {
+                    "name": "Xiaoguang Cui",
+                    "email": "cuixiaoguang@yuewen.com"
+                }
+            ],
+            "description": "tars的php-client能力",
+            "support": {
+                "issues": "https://github.com/TarsPHP/tars-client/issues",
+                "source": "https://github.com/TarsPHP/tars-client/tree/v0.3.0"
+            },
+            "time": "2019-08-07T05:50:24+00:00"
+        },
+        {
+            "name": "phptars/tars-config",
+            "version": "0.1.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TarsPHP/tars-config.git",
+                "reference": "bc2ddc4efd3a3fb3728850078fb7dbff5c1353f2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TarsPHP/tars-config/zipball/bc2ddc4efd3a3fb3728850078fb7dbff5c1353f2",
+                "reference": "bc2ddc4efd3a3fb3728850078fb7dbff5c1353f2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3",
+                "phptars/tars-client": "~0.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Tars\\config\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Chen Liang",
+                    "email": "cedricliang21@gmail.com"
+                }
+            ],
+            "description": "tars的配置拉取",
+            "support": {
+                "issues": "https://github.com/TarsPHP/tars-config/issues",
+                "source": "https://github.com/TarsPHP/tars-config/tree/v0.1.6"
+            },
+            "time": "2018-12-25T06:19:43+00:00"
+        },
+        {
+            "name": "phptars/tars-deploy",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TarsPHP/tars-deploy.git",
+                "reference": "90757c476426860cd6634f4f6bd46d43fa69f60f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TarsPHP/tars-deploy/zipball/90757c476426860cd6634f4f6bd46d43fa69f60f",
+                "reference": "90757c476426860cd6634f4f6bd46d43fa69f60f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Tars\\deploy\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Panpan Ding",
+                    "email": "dingpanpan@yuewen.com"
+                }
+            ],
+            "description": "tarsphp 打包",
+            "support": {
+                "issues": "https://github.com/TarsPHP/tars-deploy/issues",
+                "source": "https://github.com/TarsPHP/tars-deploy/tree/v0.1.1"
+            },
+            "time": "2018-09-11T12:18:10+00:00"
+        },
+        {
+            "name": "phptars/tars-log",
+            "version": "0.1.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TarsPHP/tars-log.git",
+                "reference": "2e5645e18d9c278c01f5dafcf0ce1aeccfd81d25"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TarsPHP/tars-log/zipball/2e5645e18d9c278c01f5dafcf0ce1aeccfd81d25",
+                "reference": "2e5645e18d9c278c01f5dafcf0ce1aeccfd81d25",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5",
+                "phptars/tars-client": "~0.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Tars\\log\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Chen liang",
+                    "email": "liangchen@yuewen.com"
+                },
+                {
+                    "name": "Jingfeng liu",
+                    "email": "liujingfeng.a@yuewen.com"
+                },
+                {
+                    "name": "Panpan Ding",
+                    "email": "dpp2009@sina.com"
+                }
+            ],
+            "description": "tars的远程日志",
+            "support": {
+                "issues": "https://github.com/TarsPHP/tars-log/issues",
+                "source": "https://github.com/TarsPHP/tars-log/tree/v0.1.6"
+            },
+            "time": "2021-03-17T13:31:42+00:00"
+        },
+        {
+            "name": "phptars/tars-monitor",
+            "version": "0.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TarsPHP/tars-monitor.git",
+                "reference": "1292fb55da3085ea584e5be8902ad9637884a06b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TarsPHP/tars-monitor/zipball/1292fb55da3085ea584e5be8902ad9637884a06b",
+                "reference": "1292fb55da3085ea584e5be8902ad9637884a06b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5",
+                "phptars/tars-registry": "~0.1",
+                "phptars/tars-utils": "~0.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Tars\\monitor\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Jingfeng Liu",
+                    "email": "liujingfeng.a@yuewen.com"
+                },
+                {
+                    "name": "Chen Liang",
+                    "email": "cedricliang21@gmail.com"
+                }
+            ],
+            "description": "tars的主调和特性上报",
+            "support": {
+                "issues": "https://github.com/TarsPHP/tars-monitor/issues",
+                "source": "https://github.com/TarsPHP/tars-monitor/tree/v0.2.3"
+            },
+            "time": "2018-12-26T07:20:11+00:00"
+        },
+        {
+            "name": "phptars/tars-registry",
+            "version": "0.1.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TarsPHP/tars-registry.git",
+                "reference": "2fed292bdc5d5445ee96a59d124501914868946f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TarsPHP/tars-registry/zipball/2fed292bdc5d5445ee96a59d124501914868946f",
+                "reference": "2fed292bdc5d5445ee96a59d124501914868946f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "phptars/tars-utils": "~0.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Tars\\registry\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Chen Liang",
+                    "email": "liangchen@yuewen.com"
+                },
+                {
+                    "name": "Jingfeng Liu",
+                    "email": "liujingfeng.a@yuewen.com"
+                }
+            ],
+            "description": "tars的php主控寻址相关",
+            "support": {
+                "issues": "https://github.com/TarsPHP/tars-registry/issues",
+                "source": "https://github.com/TarsPHP/tars-registry/tree/v0.1.7"
+            },
+            "time": "2019-03-20T11:17:34+00:00"
+        },
+        {
+            "name": "phptars/tars-report",
+            "version": "0.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TarsPHP/tars-report.git",
+                "reference": "3230d09adcf1a2b7a266b493488b05b140634cc0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TarsPHP/tars-report/zipball/3230d09adcf1a2b7a266b493488b05b140634cc0",
+                "reference": "3230d09adcf1a2b7a266b493488b05b140634cc0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Tars\\report\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Chen Liang",
+                    "email": "cedricliang21@gmail.com"
+                }
+            ],
+            "description": "tars进行keep-alive上报的模块",
+            "support": {
+                "issues": "https://github.com/TarsPHP/tars-report/issues",
+                "source": "https://github.com/TarsPHP/tars-report/tree/master"
+            },
+            "time": "2018-12-24T07:45:37+00:00"
+        },
+        {
+            "name": "phptars/tars-server",
+            "version": "0.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TarsPHP/tars-server.git",
+                "reference": "2793e40f93b8890a4c9d95e2804dfa4d5925acf1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TarsPHP/tars-server/zipball/2793e40f93b8890a4c9d95e2804dfa4d5925acf1",
+                "reference": "2793e40f93b8890a4c9d95e2804dfa4d5925acf1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "phptars/tars-client": "~0.2",
+                "phptars/tars-config": "~0.1",
+                "phptars/tars-log": "~0.1.6",
+                "phptars/tars-monitor": "~0.2",
+                "phptars/tars-report": "~0.1",
+                "phptars/tars-utils": "~0.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Tars\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Chen Liang",
+                    "email": "cedricliang21@gmail.com"
+                },
+                {
+                    "name": "Panpan Ding",
+                    "email": "dingpanpan@yuewen.com"
+                },
+                {
+                    "name": "Jingfeng Liu",
+                    "email": "liujingfeng.a@yuewen.com"
+                },
+                {
+                    "name": "Yong Zhang",
+                    "email": "bob_zy@yeah.net"
+                }
+            ],
+            "description": "tars的php框架",
+            "support": {
+                "issues": "https://github.com/TarsPHP/tars-server/issues",
+                "source": "https://github.com/TarsPHP/tars-server/tree/v0.7.0"
+            },
+            "time": "2021-03-17T13:49:00+00:00"
+        },
+        {
+            "name": "phptars/tars-utils",
+            "version": "0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TarsPHP/tars-utils.git",
+                "reference": "b0e6ef16c1ee44eecb5ac4d0a2fb591d9f606197"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TarsPHP/tars-utils/zipball/b0e6ef16c1ee44eecb5ac4d0a2fb591d9f606197",
+                "reference": "b0e6ef16c1ee44eecb5ac4d0a2fb591d9f606197",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Tars\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Chen Liang",
+                    "email": "cedricliang21@gmail.com"
+                },
+                {
+                    "name": "Yong Zhang",
+                    "email": "bob_zy@yeah.net"
+                }
+            ],
+            "description": "tars的php辅助文件",
+            "support": {
+                "issues": "https://github.com/TarsPHP/tars-utils/issues",
+                "source": "https://github.com/TarsPHP/tars-utils/tree/v0.3.0"
+            },
+            "time": "2019-06-17T07:59:23+00:00"
+        },
+        {
+            "name": "phptars/tars2php",
+            "version": "0.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TarsPHP/tars2php.git",
+                "reference": "578fdba9578883665a5e15ce6d7a2c18efc3a37d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TarsPHP/tars2php/zipball/578fdba9578883665a5e15ce6d7a2c18efc3a37d",
+                "reference": "578fdba9578883665a5e15ce6d7a2c18efc3a37d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Chen Liang",
+                    "email": "liangchen@yuewen.com"
+                },
+                {
+                    "name": "Yong Zhang",
+                    "email": "bob_zy@yeah.net"
+                }
+            ],
+            "description": "php代码自动生成工具",
+            "support": {
+                "issues": "https://github.com/TarsPHP/tars2php/issues",
+                "source": "https://github.com/TarsPHP/tars2php/tree/0.3.2"
+            },
+            "time": "2020-04-17T07:49:13+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "ext-zip": ">=0.0.1"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
