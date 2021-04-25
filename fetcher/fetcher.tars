@@ -1,0 +1,35 @@
+module TarsTestToolKit
+{
+	struct MemInfo
+	{
+		0 require long total;
+		1 require long used;
+		2 require long cached;
+		3 require long free;
+		4 require long active;
+		5 require long inactive;
+		6 require long swapTotal;
+		7 require long swapUsed;
+		8 require long swapFree;
+	};
+
+	struct CoreInfo
+	{
+		0 require long total;
+		1 require long used;
+		2 require long idle;
+	};
+
+	struct ResResp
+	{
+		0 require unsigned int code;
+		1 require string msg;
+		2 require vector<CoreInfo> cores;
+		3 require MemInfo memInfo;
+	};
+
+	interface fetcher
+	{
+	    ResResp fetchResInfo(); // 获取当前资源情况
+	};
+};
